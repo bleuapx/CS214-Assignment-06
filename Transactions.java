@@ -65,12 +65,11 @@ public class Account
    //----------------------------------------------------------------
    // Returns a one-line description of the account as a string.
    //----------------------------------------------------------------
-   public Striing toString()
+   public String toString()
    {
       NumberFormat fmt = NumberFormat.getCurrencyInstance();
-      return (acctNumber + "\t" + name + "\t" + fmt.format(balance))
+      return (acctNumber + "\t" + name + "\t" + fmt.format(balance));
    }
-}
 
    //----------------------------------------------------------------
    // Creates some bank accounts and requests various services.
