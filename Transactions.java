@@ -5,9 +5,9 @@
 
 import java.text.NumberFormat;
 
-public class Transactions
-public class Account
-{
+public class Transactions{
+public class Account{
+
    private final double RATE = 0.035; // Interest rate of 3.5%
 
    private long acctNumber;
